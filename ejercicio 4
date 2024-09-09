@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main () 
+{
+long a,b;
+b=0;
+while (b<78500) {
+printf ("ingrese un valor \n");
+scanf ("%ld", &a);
+b= b+a;
+
+
+
+
+
+
+
+}
+
+
+
+}
