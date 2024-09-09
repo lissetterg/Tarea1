@@ -1,0 +1,21 @@
+/*Angela Lissette*/
+#include <stdio.h>
+int main () 
+{
+long a,b;
+b=0;
+while (b<78500) {
+printf ("ingrese un valor \n");
+scanf ("%ld", &a);
+b=b+a;
+}
+
+printf("la suma es mayor a 78500 \n");
+printf ("el total actual es %ld\n", b);
+
+return 0;
+
+
+}
+
+
