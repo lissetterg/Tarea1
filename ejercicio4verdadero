@@ -1,0 +1,21 @@
+/*Angela Lissette*/
+#include <stdio.h>
+int main();{
+int i;
+int b;
+int suma = 0;
+
+
+prtinf("ingresar 10 numeros para sumar \n");
+for (i=0;i<10; i++) {
+printf("b %d:, i+1");
+scanf ("%d", &b);
+suma+=b; // acumulamos la suma de los valores;
+
+
+}
+printf("la suma de los 10 numeros es %d\n", suma);
+return 0;
+
+
+}
