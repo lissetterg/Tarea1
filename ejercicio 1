@@ -1,0 +1,19 @@
+/*Angela Lissette*/
+#include <stdio.h>
+int main ()
+{
+int a;
+printf("Ingrese un valor \n");
+scanf("%d", &a);
+
+if(a > 0) {
+printf ("su numero es positivo \n");
+}
+if(a<0) {
+printf("su numero es negativo \n");
+}
+if(a==0){
+printf("Su numero es igual a 0 \n");
+}
+return 0;
+}
